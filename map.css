@@ -1,0 +1,16 @@
+body {
+    background-color:rgb(85, 134, 238);
+}
+
+.center {
+    text-align: center;
+}
+
+.weatherForm {
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
