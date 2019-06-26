@@ -15,7 +15,7 @@ function getWeatherForLocation(latitude, longitude) {
     })
     .then(function(myJson) {
     console.log(myJson) ;
-    document.getElementById("weatherData").innerHTML=JSON.stringify(myJson) ;
+    // document.getElementById("weatherData").innerHTML=JSON.stringify(myJson) ;
     populateData(myJson)
     });
 }
